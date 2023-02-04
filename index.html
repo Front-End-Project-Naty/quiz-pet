@@ -12,29 +12,39 @@
 </head>
 <body>
     <header class="titulo">
-        <img class="imagem__banner" src="./img/banner.png">
+        <img class="banner-image" src="./img/banner.png">
     </header>
 
     <main>
-        <div class="container__quiz">
-            <h1 class="texto__pergunta">Pergunta 1</h1>
-            <img class="imagem" src="./img/verso.jpg" >
-        </div>
-            <div class="container__opcoes">
-                <button class="opcao" onclick="" id="op1" >alternativa1</button>
-          
-                <button class="opcao" id="op2" >alternativa2</button>
-          
-                <button class="opcao" id="op3">alternativa3</button>
-          
-                <button class="opcao" id="op4">alternativa4</button>
+        <div class="quiz-container" id="quiz">
+            <div class="quiz-header">
+              <h2 id="question">Pergunta</h2>
+              <ul>
+                <li>
+                  <input type="radio" name="answer" id="a" class="answer">
+                  <label for="a" id="a_text">Resposta 1</label>
+                </li>
+       
+                <li>
+                  <input type="radio" name="answer" id="b" class="answer">
+                  <label for="b" id="b_text">Resposta 2</label>
+                </li>
+       
+                <li>
+                  <input type="radio" name="answer" id="c" class="answer">
+                  <label for="c" id="c_text">Resposta 3</label>
+                </li>
+       
+                <li>
+                  <input type="radio" name="answer" id="d" class="answer">
+                  <label for="d" id="d_text">Resposta 4</label>
+                </li>
+              </ul>
             </div>
-                <button class="botao__proximo">Próximo</button>
-        </div>
-
+            <button id="submit">Responder</button>
+          </div>
     </main>
 
-       
     <script src="script.js"></script>
 </body>
 </html>
