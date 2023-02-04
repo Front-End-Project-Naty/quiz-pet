@@ -34,8 +34,7 @@ main {
   }
    
   h2 {
-    margin: 0;
-    padding: 1rem;
+    padding: 5px;
     text-align: center;
   }
    
@@ -45,8 +44,11 @@ main {
   }
    
   ul li {
-    font-size: 1.2rem;
+    border: 1px solid rgb(252, 17, 205);
+    border-radius: 10px;
+    font-size: 20px;
     margin: 1rem 0;
+    padding: 15px;
   }
    
   ul li label {
@@ -60,10 +62,10 @@ main {
     border-bottom-right-radius: 10px;
     cursor: pointer;
     display: block;
-    font-family: inherit;
-    font-size: 1.2rem;
+    font-family: 'Itim', cursive;
+    font-size: 20px;
     font-weight: bold;
-    padding: 1.3rem;
+    padding: 20px;
     text-transform: uppercase;
     width: 100%;
   }
