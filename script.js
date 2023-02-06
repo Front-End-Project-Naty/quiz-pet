@@ -1,48 +1,32 @@
- const quizData = [
+ const questionQuizz = [
     {
         question:"Qual dessas frutas os cães não podem comer?",
-        a:"Banana",
-        b:"Uva",
-        c:"Melancia",
-        d:"Manga",
-        correct:"b",
+        options: ['Banana', 'Uva', 'Melancia', 'Manga'],
+        answer: 1,
     },
 
     {
         question:"Qual é considerada a menor raça do mundo?",
-        a:"Chihuahua",
-        b:"Yorkshire",
-        c:"ShihTzu",
-        d:"Spitz",
-        correct:"a",
+        options: ['Chihuahua', 'Yorkshire', 'ShihTzu', 'Spitz'],
+        answer: 0,
     },
 
     {
         question:"Qual o tempo médio de gestação de uma cachorrinha?",
-        a:"9 meses",
-        b:"1 mês",
-        c:"2 meses",
-        d:"4 meses",
-        correct:"c",
+        options: ['9 meses', '1 mês', '2meses', '4 meses'],
+        answer: 2,
     },
 
     {
         question:"Qual a raça do Scooby Doo?",
-        a:"Poodle gigante",
-        b:"Boxer",
-        c:"Dogue Alemão",
-        d:"Pastor Suíço",
-        correct:"c",
+        options: ['Poodle gigante', 'Boxer', 'Dogue Alemão', 'Pastor Suíço'],
+        answer: 2,
     },
 
     {
         question:"Qual é considerada a raça mais inteligente?",
-        a:"Pug",
-        b:"Buldogue Inglês",
-        c:"Pequinês",
-        d:"Border Collie",
-        correct:"d",
+        options: ['Pug', 'Buldogue Francês', 'Pequinês', 'Border Collie'],
+        answer: 3,
     },
 
-];
-
+]
