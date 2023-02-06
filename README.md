@@ -21,7 +21,7 @@
 
 ## Acesso ao projeto
 
-Você pode acessar em breve.
+Você poderá acessar em breve.
 
 ## Desenvolvedora
 
